@@ -1,5 +1,4 @@
 # PhD Candidate @ University of Cambridge | Paralympic Rower
-Welcome to my website
 
 ## Academic
 
