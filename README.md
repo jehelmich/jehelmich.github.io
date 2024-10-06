@@ -16,4 +16,6 @@ Notable achievements include:
 >- 2nd in PR3 Mix4+ at World Rowing Championships 2022, Racice (Czech Republic)
 >- 3rd in PR3 Mix4+ at European Rowing Championships 2022, Munich (Germany)
 
+## Contact
+
 If you have questions or requests, you can reach me via [email](jan@hlmch.com) or check my [LinkedIn](https://www.linkedin.com/in/jan-helmich/) profile.
