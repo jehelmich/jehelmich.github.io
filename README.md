@@ -8,7 +8,7 @@ After taking a BA (Hons) in Computer Science and an MPhil in Industrial Systems,
 
 As part of the German National Rowing Team, I have won medals at the Paralympics, World Championshipa and European Championships.
 
->Notable achievements include:
+Notable achievements include:
 >- 3rd in PR3 Mix2x at Paralympic Games 2024, Paris (France)
 >- 2nd in PR3 Mix2x at European Rowing Championships 2024, Szeged (Hungary)
 >- 3rd in PR3 Mix4+ at World Rowing Championships 2023, Belgrade (Serbia)
