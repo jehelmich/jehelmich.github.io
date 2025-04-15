@@ -81,29 +81,8 @@ a {
 /* Media query for large screen heights */
 @media (min-height: 601px) {
   .website-link {
-    bottom: 80px; /* Align to the bottom with 80px padding */
+    bottom: 15%; /* Move up by 10% from the bottom */
     margin-top: 0; /* Remove default spacing */
     position: absolute;
-  }
-}
-
-/* Media query for small screens */
-@media (max-width: 600px) {
-  .website-link {
-    position: static; /* Ensure it flows with the content */
-    margin-top: 20px; /* Add spacing */
-    font-size: 1.2em; /* Adjust font size for smaller screens */
-  }
-
-  .content {
-    padding: 10px; /* Reduce padding for smaller screens */
-  }
-
-  h1 {
-    font-size: 2em; /* Adjust heading size */
-  }
-
-  p {
-    font-size: 1em; /* Adjust paragraph size */
   }
 }
