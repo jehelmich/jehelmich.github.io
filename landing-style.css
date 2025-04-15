@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+  padding: 0;
+  text-align: center;
+}
+
+/* Background container styling */
+.background-container {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+  width: 100%;
+  z-index: -1; /* Place behind the content */
+}
+
+#background1 {
+  opacity: 1; /* Ensure the first background is visible initially */
+}
+
+#background2 {
+  opacity: 0; /* Hidden initially */
+}
+
+/* Content container styling */
+.content {
+  align-items: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for better readability */
+  box-sizing: border-box; /* Include padding in height calculations */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; /* Center the content vertically */
+  padding: 20px;
+  position: relative; /* Needed for absolute positioning of the link */
+  width: 100%;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+
+/* Link styling */
+a {
+  color: inherit; /* Inherit the text color from the parent element */
+  font-weight: normal; /* Make the font weight normal */
+  text-decoration: none; /* Remove underline */
+}
+
+.website-link {
+  color: inherit; /* Inherit the text color from the parent element */
+  font-size: 1.5em;
+  margin-top: 20px; /* Default spacing for small screens */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Media query for large screen heights */
+@media (min-height: 601px) {
+  .website-link {
+    bottom: 80px; /* Align to the bottom with 80px padding */
+    margin-top: 0; /* Remove default spacing */
+    position: absolute;
+  }
+}

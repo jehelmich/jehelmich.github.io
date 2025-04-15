@@ -1,0 +1,198 @@
+/* General link styling */
+a {
+  color: inherit; /* Use the normal text color */
+}
+
+/* Banner styling */
+.banner {
+  /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0px;
+  color: white; /* Ensure text is readable */
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.banner h1,
+.banner p,
+.banner a {
+  position: relative;
+  z-index: 2; /* Ensure text is above the overlay */
+}
+
+/* Body styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+body p {
+  text-align: justify;
+}
+
+/* Contact links styling */
+.contact-flex {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Add spacing between the image and the list */
+  margin-top: 20px; /* Add spacing above the flex container */
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.contact-links a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-links li {
+  margin-bottom: 10px;
+}
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2em;
+}
+
+/* Footer styling */
+footer {
+  padding: 10px 0; /* Add vertical padding */
+  background-color: #f4f4f4; /* Optional: Add a background color for better visibility */
+  color: #333; /* Optional: Set text color */
+}
+
+footer p {
+  text-align: center; /* Center-align the content */
+}
+
+/* Headshot styling */
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.headshot-container {
+  text-align: center;
+}
+
+.headshot-container figcaption {
+  font-size: 0.9em;
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Image styling */
+img.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+img.showcase {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+/* Navbar styling */
+.navbar {
+  position: absolute; /* Attach the navbar to the banner */
+  bottom: 0; /* Align it to the bottom of the banner */
+  width: 100%; /* Make it span the full width */
+  text-align: center; /* Center the content */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text color */
+  font-size: 1.1em; /* Slightly larger font size */
+  display: block; /* Make links block-level for full clickable area */
+  padding: 10px 0; /* Add vertical padding for clickable area */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Semi-translucent background on hover */
+  color: white; /* Ensure text remains white */
+}
+
+.navbar li {
+  width: 120px; /* Set a fixed width for each item */
+  text-align: center; /* Center-align the content inside each item */
+}
+
+.navbar ul {
+  list-style: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center the navigation items */
+}
+
+/* Responsive navbar for narrow screens */
+@media (max-width: 600px) {
+  .navbar {
+    position: relative; /* Change position to relative */
+    bottom: auto; /* Remove the bottom alignment */
+    padding: 0; /* Remove vertical padding */
+    margin: 0; /* Remove any margin */
+    margin-top: 10px; /* Add spacing below the header */
+  }
+
+  .navbar a {
+    display: block; /* Ensure links are block-level for full-width clickable area */
+    text-align: center; /* Center-align the text */
+    margin: 0; /* Remove any margin */
+  }
+
+  .navbar li {
+    width: 100%; /* Make each item full-width in vertical mode */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically */
+    gap: 0; /* Remove spacing between items */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+  }
+}
+
+/* Header and footer styling */
+header,
+footer {
+  background: #f4f4f4;
+  text-align: center;
+}
