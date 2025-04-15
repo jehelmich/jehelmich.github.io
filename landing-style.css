@@ -86,3 +86,24 @@ a {
     position: absolute;
   }
 }
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .website-link {
+    position: static; /* Ensure it flows with the content */
+    margin-top: 20px; /* Add spacing */
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .content {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 2em; /* Adjust heading size */
+  }
+
+  p {
+    font-size: 1em; /* Adjust paragraph size */
+  }
+}
