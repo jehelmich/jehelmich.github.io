@@ -2,26 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Speaking - Jan Helmich</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="banner" style="background-image: url('images/medal.jpg')">
+      <div class="banner banner--compact" style="background-image: url('images/medal.jpg')">
         <h1>Jan Helmich</h1>
-        <p style="text-align: center">PhD Candidate | Paralympian | Founder</p>
-        <nav class="navbar">
+        <p class="tagline">Researcher &amp; Software Engineer, Founder, Paralympian</p>
+        <nav class="navbar" aria-label="Main">
           <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="rowing.html">Rowing</a></li>
             <li><a href="cv.html">CV</a></li>
-            <li><a href="speaking.html">Speaking</a></li>
+            <li><a href="speaking.html" aria-current="page">Speaking</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="container">
+    <main class="container">
       <h2>Public Speaking</h2>
       <p>
         I am available for speaking engagements on topics including sport,
@@ -41,9 +42,14 @@
         German. I am also open to virtual events. If you'd like more
         information, please reach out directly to me!
       </p>
-    </div>
+    </main>
     <footer>
-      <p>© Jan Helmich</p>
+      <p>
+        © Jan Helmich ·
+        <a href="mailto:jan@hlmch.com">jan@hlmch.com</a> ·
+        <a href="https://www.linkedin.com/in/jehelmich/">LinkedIn</a> ·
+        <a href="https://github.com/jehelmich">GitHub</a>
+      </p>
     </footer>
   </body>
 </html>
