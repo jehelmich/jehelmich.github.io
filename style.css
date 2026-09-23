@@ -166,6 +166,11 @@ h2 {
   margin-top: 0.5em;
 }
 
+.closing {
+  margin-top: 2.4em;
+  color: var(--muted);
+}
+
 /* CV timeline */
 .timeline {
   display: grid;

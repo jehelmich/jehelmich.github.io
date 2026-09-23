@@ -2,134 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CV - Jan Helmich</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="banner" style="background-image: url('images/finish.jpg')">
+      <div class="banner banner--compact" style="background-image: url('images/finish.jpg')">
         <h1>Jan Helmich</h1>
-        <p style="text-align: center">PhD Candidate | Paralympian | Founder</p>
-        <nav class="navbar">
+        <p class="tagline">Researcher &amp; Software Engineer, Founder, Paralympian</p>
+        <nav class="navbar" aria-label="Main">
           <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="rowing.html">Rowing</a></li>
-            <li><a href="cv.html">CV</a></li>
+            <li><a href="cv.html" aria-current="page">CV</a></li>
             <li><a href="speaking.html">Speaking</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="container">
-      <section id="profile">
-        <h2>CV</h2>
-        <p>
-          I am a PhD candidate at the University of Cambridge, a Paralympian,
-          public speaker, and software developer. My expertise spans computer
-          science, and industrial engineering problems. I am passionate about
-          leveraging technology to improve human performance and inclusion
-          across the industry and sports.
-        </p>
+    <main class="container">
+      <p class="lead">
+        Researcher and software engineer, from corporate software at Goldman
+        Sachs, through early-stage AI start-ups and a Cambridge PhD, to
+        founding Volent. A full CV is available on
+        <a href="mailto:jan@hlmch.com">request</a>.
+      </p>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <dl class="timeline">
+          <dt>2026 – present</dt>
+          <dd>
+            <strong>Founder</strong>, Volent
+            <span>High-recall retrieval for large language models. Deutsche Sporthilfe Start-up of the Year 2026.</span>
+          </dd>
+
+          <dt>2025</dt>
+          <dd>
+            <strong>Technical Lead</strong>, Vergil AI
+            <span>Led backend planning for an LLM-based product from demo towards launch: data, services and deployment.</span>
+          </dd>
+
+          <dt>2021 – present</dt>
+          <dd>
+            <strong>Public Speaker</strong>, various organisations
+            <span>Delivered talks on topics such as inclusion, dual careers, and leveraging technology in sports.</span>
+          </dd>
+
+          <dt>2020 – 2026</dt>
+          <dd>
+            <strong>Doctoral Researcher</strong>, Cyber-Human Lab, University of Cambridge
+            <span>Precision and uncertainty in markerless human-pose measurement, supervised by Prof. Thomas Bohné, in collaboration with Microsoft Research.</span>
+          </dd>
+
+          <dt>2020</dt>
+          <dd>
+            <strong>Software Engineer</strong>, Versed AI
+            <span>Early technical hire at a Cambridge NLP spin-out working on supply-chain intelligence; built the front end of its pilot product.</span>
+          </dd>
+
+          <dt>2018</dt>
+          <dd>
+            <strong>Summer Analyst</strong>, Goldman Sachs
+            <span>Software engineering in Securities Lending: React/Redux front end and Java server-side systems.</span>
+          </dd>
+        </dl>
       </section>
 
       <section id="education">
         <h2>Education</h2>
-        <ul>
-          <li>
-            <strong>PhD in Engineering</strong>, University of Cambridge (2020 -
-            Present) <br />Research focus: Real-time motion capture evaluation
-            and motion feedback using digital human avatars. I received an EPSRC
-            iCase scholarship in collaboration with Microsoft Research.
-          </li>
-          <li>
-            <strong
-              >MPhil in Industrial Systems, Manufacture & Management</strong
-            >, University of Cambridge (2019 - 2020)
-          </li>
-          <li>
-            <strong>BA (Hons) in Computer Science</strong>, University of
-            Cambridge (2016 - 2019)
-          </li>
-        </ul>
+        <dl class="timeline">
+          <dt>2020 – 2026</dt>
+          <dd>
+            <strong>PhD in Engineering</strong>, University of Cambridge
+            <span>EPSRC iCASE studentship with Microsoft Research. Thesis submitted.</span>
+          </dd>
+
+          <dt>2019 – 2020</dt>
+          <dd>
+            <strong>MPhil in Industrial Systems, Manufacture and Management</strong>, University of Cambridge
+          </dd>
+
+          <dt>2016 – 2019</dt>
+          <dd>
+            <strong>BA (Hons) in Computer Science</strong>, University of Cambridge
+          </dd>
+        </dl>
       </section>
 
-      <section id="experience">
-        <h2>Professional Experience</h2>
-        <ul>
-          <li>
-            <strong>Technical Lead</strong>, Vergil AI (2025) <br />Developed
-            the tech-stack for an early stage GenAI startup working on creating
-            knowledged graphs for improved AI utilisiation in corporate
-            environments.
-          </li>
-          <li>
-            <strong>Public Speaker</strong>, Various Organizations (2021 -
-            Present) <br />Delivered talks on topics such as inclusion, dual
-            careers, and leveraging technology in sports.
-          </li>
-          <li>
-            <strong>Researcher</strong>, Cyber-Human Lab, University of
-            Cambridge (2020 - Present) <br />Investigating applications of
-            motion capture and feedback systems in sports and rehabilitation.
-          </li>
-          <li>
-            <strong>Elite Athlete</strong>, German Rowing Federation (2018 -
-            Present) <br />Competing at the highest level in international
-            rowing competitions, including the Paralympic Games and World
-            Championships.
-          </li>
-          <li>
-            <strong>Software Developer</strong>, Versed AI (2020)
-            <br />Intrernship with a Cambridge University spin-out that used NLP
-            and ML tech for supply chain analysis. I built the front-end of
-            their pilot product.
-          </li>
-          <li>
-            <strong>Intern</strong>, Goldman Sachs (2018) <br />Software
-            Engineering internship in the securities lending division with a
-            focus on UI design and development.
-          </li>
-        </ul>
+      <section id="sport">
+        <h2>Sport</h2>
+        <dl class="timeline">
+          <dt>2018 – present</dt>
+          <dd>
+            <strong>German Paralympic Rowing Team</strong>
+            <span>Paralympic bronze, Paris 2024 · World Championships silver 2022, bronze 2023 · European Championships bronze 2022, silver 2023 and 2024</span>
+          </dd>
+
+          <dt>Honours</dt>
+          <dd>
+            Silver Laurel Leaf (2024) · Cambridge Sportsperson of the Year
+            (2025) · Full Blue, University of Cambridge (2020)
+          </dd>
+        </dl>
       </section>
 
-      <section id="achievements">
-        <h2>Rowing Achievements</h2>
-        <ul>
-          <li>Bronze Medal, Paralympic Games 2024 (PR3 Mix2x)</li>
-          <li>1x Silver, 1x Bronze Medalist, World Rowing Championships</li>
-          <li>2x Silver, 1x Bronze Medalist, European Rowing Championships</li>
-          <li>
-            Silver Laurel Leaf, Germany (2024), highest national award for
-            achievements in sport
-          </li>
-          <li>Full Blue in Rowing, University of Cambridge (2020)</li>
-        </ul>
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Programming Languages: Python, Java</li>
-          <li>
-            Technologies: Machine Learning, Motion Capture Systems, Generative
-            AI
-          </li>
-          <li>Languages: English (Fluent), German (Native)</li>
-        </ul>
-      </section>
-
-      <section id="interests">
-        <h2>Volunteering</h2>
-        <p>
-          I have held volunteering roles with the Trinity Hall student governing
-          body, the catholic youth organisation in Germany, and educational
-          outreach events with Microsoft.
-        </p>
-      </section>
-    </div>
+      <p class="closing">
+        More on my research at the Cambridge Cyber-Human Lab, or on Volent's
+        work on LLM retrieval, is available on request:
+        <a href="mailto:jan@hlmch.com">jan@hlmch.com</a>.
+      </p>
+    </main>
     <footer>
-      <p>© Jan Helmich</p>
+      <p>
+        © Jan Helmich ·
+        <a href="mailto:jan@hlmch.com">jan@hlmch.com</a> ·
+        <a href="https://www.linkedin.com/in/jehelmich/">LinkedIn</a> ·
+        <a href="https://github.com/jehelmich">GitHub</a>
+      </p>
     </footer>
   </body>
 </html>
