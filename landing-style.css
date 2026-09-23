@@ -5,6 +5,7 @@ body {
   display: flex;
   font-family: Arial, sans-serif;
   height: 100vh;
+  height: 100dvh; /* Phones: exclude the browser toolbars */
   justify-content: center;
   margin: 0;
   overflow: hidden; /* Prevent scrolling */
@@ -54,7 +55,7 @@ body {
 
 /* Heading styling */
 h1 {
-  font-size: 3em;
+  font-size: clamp(2.2rem, 9vw, 3em); /* Fits one line on phones */
   margin: 0;
 }
 
@@ -74,6 +75,7 @@ a {
 .website-link {
   color: inherit; /* Inherit the text color from the parent element */
   font-size: 1.5em;
+  padding: 10px 16px; /* Larger tap target on touch screens */
   margin-top: 20px; /* Default spacing for small screens */
   text-decoration: none; /* Remove underline */
 }
