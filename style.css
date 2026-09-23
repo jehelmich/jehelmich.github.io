@@ -166,6 +166,12 @@ h2 {
   margin-top: 0.5em;
 }
 
+.note {
+  margin-top: 1.2em;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
 .closing {
   margin-top: 2.4em;
   color: var(--muted);
