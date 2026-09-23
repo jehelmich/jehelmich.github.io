@@ -16,6 +16,10 @@ body {
   color: var(--text);
   line-height: 1.65;
   -webkit-text-size-adjust: 100%;
+  /* Keep the footer at the bottom on short pages */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -151,8 +155,11 @@ h2 {
 
 /* Content */
 .container {
+  flex: 1 0 auto;
+  width: 100%;
   max-width: 720px;
-  margin: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
   padding: 2.5em 16px 3em;
 }
 
