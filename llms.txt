@@ -1,0 +1,22 @@
+# Jan Helmich
+
+> Researcher and software engineer, founder and Paralympic rower. Builds AI systems and the evaluations that show whether they work, mostly around retrieval for large language models and the precision limits of computer vision.
+
+- Doctoral research with Prof. Thomas Bohné at the Cyber-Human Lab, University of Cambridge, on the precision of camera-based human-pose measurement; EPSRC iCASE studentship with Microsoft Research; thesis submitted 2026.
+- Founder of Volent (2026), high-recall retrieval for large language models. Previously technical lead at Vergil AI (2025), early technical hire at Versed AI (2020), and software engineering at Goldman Sachs (2018).
+- German Paralympic rowing team since 2018: bronze, PR3 mixed double sculls, Paris 2024; World and European Championship medals.
+- Contact: jan@hlmch.com
+
+## Pages
+
+- [Home](https://www.hlmch.com/home.html): overview of research, engineering and rowing
+- [CV](https://www.hlmch.com/cv.html): experience, education and sport, one line each
+- [Rowing](https://www.hlmch.com/rowing.html): results and awards
+- [Speaking](https://www.hlmch.com/speaking.html): talks and workshops
+- [Contact](https://www.hlmch.com/contact.html): email, LinkedIn, GitHub
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/jehelmich/)
+- [GitHub](https://github.com/jehelmich)
+- [Cyber-Human Lab profile](https://cyberhuman.io/team-members/jan-helmich/)
